@@ -14,7 +14,7 @@
   // menggambar titik pixel
   imagesetpixel($img, 100, 100, $px_color);
 
-  // buat image
+  // finishing image
   header('Content-Type: image/png');
   imagepng($img); 
 ?>
