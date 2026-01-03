@@ -1,3 +1,3 @@
 <?php
-// berdasarkan sisi
+// berdasarkan sisi dalam dan luar
 ?>
