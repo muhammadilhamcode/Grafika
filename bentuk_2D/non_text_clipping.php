@@ -1,3 +1,3 @@
 <?php
-  // clipping semua yg berada di area clipping
+// clipping semua yg berada di area clipping
 ?>
