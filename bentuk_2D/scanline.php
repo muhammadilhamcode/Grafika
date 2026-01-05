@@ -11,6 +11,9 @@ $img = imagecreatetruecolor($width, $height);
 // alokasikan warna background
 $bg_color = imagecolorallocate($img, 255, 255, 255);
 
+// mengisi background
+imagefill($img, 0, 0, $bg_color);
+
 function scanlinefill($vx, $vy){
 }
 
