@@ -9,6 +9,8 @@ $height  = 250;
 $img = imagecreatetruecolor($width, $height);
 // alokasikan warna background
 $bg_color = imagecolorallocate($img, 255, 255, 255);
+// new color
+$new_color = imagecolorallocate($img, 0, 0, 0);
 // mengisi background
 imagefill($img, 0, 0, $bg_color);
 
@@ -19,7 +21,7 @@ function scanlinefill($vx, $vy){
   $b = $rgb & 0xFF;
 
   if(($r == 255)&&($g == 255)&&($b == 255)){
-     imagesetpixel($img, $vx, $vy, $px_color);
+     imagesetpixel($img, $vx, $vy, $new_color);
   }
 
 }
@@ -35,5 +37,7 @@ do{
     $y++;
     scanlinefill($x, $y);
 }while(($x<$x_max)&&($y<$y_max));
+
+
 
 ?>
