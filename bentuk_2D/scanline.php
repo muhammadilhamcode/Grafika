@@ -5,7 +5,10 @@ $y = 0;
 $width   = 250;
 $height  = 250;
 
+// buat gambar
 $img = imagecreatetruecolor($width, $height);
+// alokasikan warna background
+$bg_color = imagecolorallocate($img, 255, 255, 255);
 
 function scanlinefill($vx, $vy){
 }
