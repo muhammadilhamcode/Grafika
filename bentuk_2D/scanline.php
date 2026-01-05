@@ -24,7 +24,7 @@ function scanlinefill($vx, $vy, $uimg, $ncol){
   $b = $rgb & 0xFF;
 
   if(($r == 255)&&($g == 255)&&($b == 255)){
-     imagesetpixel($img, $vx, $vy, $ncol);
+     imagesetpixel($uimg, $vx, $vy, $ncol);
   }
 
 }
