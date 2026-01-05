@@ -1,4 +1,7 @@
 <?php
+
+/* belum di test di xampp untuk melihat errornya, programming di lakukan via smartphone jadi tidak ada xampp-nya */
+
 $x = 0;
 $y = 0;
 
