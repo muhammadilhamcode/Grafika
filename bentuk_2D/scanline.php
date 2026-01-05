@@ -1,6 +1,6 @@
 <?php
 
-/* belum di test di xampp untuk melihat errornya, programming di lakukan via smartphone jadi tidak ada xampp-nya. Maklum lagi cari kerja utk jobdesc grafika dengan gaji 45 juta / bln baru bisa beli laptop lagi */
+/* belum di test di xampp untuk melihat errornya yg penting logika di do while nya sudah benar kalo masalahnya tinggal di image, programming di lakukan via smartphone jadi tidak ada xampp-nya. Maklum lagi cari kerja utk jobdesc grafika dengan gaji 45 juta / bln baru bisa beli laptop lagi */
 
 $x = 0;
 $y = 0;
