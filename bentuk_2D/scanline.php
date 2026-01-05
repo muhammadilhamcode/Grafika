@@ -2,6 +2,9 @@
 $x = 0;
 $y = 0;
 
+$width   = 250;
+$height  = 250;
+
 /* untuk fungsi di bawah tambahkan parameter untuk bgcolor dan new color */
 function scanlinefill($vx, $vy){
 }
