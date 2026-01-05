@@ -9,6 +9,9 @@ $height  = 250;
 function scanlinefill($vx, $vy){
 }
 
+$x_max = $width;
+$y_max = $height;
+
 do{
     $x++;
     if(($x==$x_max)&&($y<$y_max)){
