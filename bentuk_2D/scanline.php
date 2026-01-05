@@ -5,7 +5,8 @@ $y = 0;
 $width   = 250;
 $height  = 250;
 
-/* untuk fungsi di bawah tambahkan parameter untuk bgcolor dan new color */
+$img = imagecreatetruecolor($width, $height);
+
 function scanlinefill($vx, $vy){
 }
 
