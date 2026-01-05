@@ -19,6 +19,7 @@ function scanlinefill($vx, $vy){
   $b = $rgb & 0xFF;
 
   if(($r == 255)&&($g == 255)&&($b == 255)){
+     imagesetpixel($img, $vx, $vy, $px_color);
   }
 
 }
