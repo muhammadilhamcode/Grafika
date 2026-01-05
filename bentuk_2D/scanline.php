@@ -1,6 +1,6 @@
 <?php
 
-/* belum di test di xampp untuk melihat errornya, programming di lakukan via smartphone jadi tidak ada xampp-nya */
+/* belum di test di xampp untuk melihat errornya, programming di lakukan via smartphone jadi tidak ada xampp-nya. Maklum lagi cari kerja utk jobdesc grafika baru bisa beli laptop lagi */
 
 $x = 0;
 $y = 0;
