@@ -13,6 +13,14 @@ $bg_color = imagecolorallocate($img, 255, 255, 255);
 imagefill($img, 0, 0, $bg_color);
 
 function scanlinefill($vx, $vy){
+  $rgb = imagecolorat($img, $vx, $vx);
+  $r = ($rgb >> 16) & 0xFF;
+  $g = ($rgb >> 8) & 0xFF;
+  $b = $rgb & 0xFF;
+
+  if(($r == 255)&&($g == 255)&&($b == 255)){
+  }
+
 }
 
 $x_max = $width;
