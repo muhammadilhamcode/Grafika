@@ -2,7 +2,7 @@
 $x = 0;
 $y = 0;
 
-function scanline($vx, $vy){
+function scanlinefill($vx, $vy){
 }
 
 do{
@@ -11,7 +11,7 @@ do{
        $x = 0;
     }
     $y++;
-    scanline($x, $y);
+    scanlinefill($x, $y);
 }while(($x<$x_max)&&($y<$y_max));
 
 ?>
