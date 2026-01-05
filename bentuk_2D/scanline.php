@@ -39,6 +39,6 @@ do{
 }while(($x<$x_max)&&($y<$y_max));
 
 header('Content-Type: image/png');
-
+imagepng($img); 
 
 ?>
