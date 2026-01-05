@@ -17,14 +17,14 @@ $new_color = imagecolorallocate($img, 0, 0, 0);
 // mengisi background
 imagefill($img, 0, 0, $bg_color);
 
-function scanlinefill($vx, $vy){
-  $rgb = imagecolorat($img, $vx, $vx);
+function scanlinefill($vx, $vy, $uimg, $ncol){
+  $rgb = imagecolorat($uimg, $vx, $vx);
   $r = ($rgb >> 16) & 0xFF;
   $g = ($rgb >> 8) & 0xFF;
   $b = $rgb & 0xFF;
 
   if(($r == 255)&&($g == 255)&&($b == 255)){
-     imagesetpixel($img, $vx, $vy, $new_color);
+     imagesetpixel($img, $vx, $vy, $ncol);
   }
 
 }
@@ -38,7 +38,7 @@ do{
        $x = 0;
     }
     $y++;
-    scanlinefill($x, $y);
+    scanlinefill($x, $y, $img, $new_color);
 }while(($x<$x_max)&&($y<$y_max));
 
 header('Content-Type: image/png');
