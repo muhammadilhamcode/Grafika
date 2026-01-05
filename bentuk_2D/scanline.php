@@ -38,6 +38,7 @@ do{
     scanlinefill($x, $y);
 }while(($x<$x_max)&&($y<$y_max));
 
+header('Content-Type: image/png');
 
 
 ?>
