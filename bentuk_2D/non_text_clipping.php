@@ -7,5 +7,5 @@ $clipping_area = array(
   "p4" => array("x" => 150, "y" => 150)
 );
 
-/* jika garis berada di atas clipping area set visible jika tidak set outside */
+/* jika garis berada di dalam clipping area set visible jika tidak set outside */
 ?>
