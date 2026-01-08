@@ -29,6 +29,8 @@ function scanlinefill($vx, $vy, $uimg, $ncol){
 
 }
 
+/* utk algoritma di bawah ganti dengan algpritma untuk menentukan x max dan y max */
+
 $x_max = $width;
 $y_max = $height;
 
